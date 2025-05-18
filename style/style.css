@@ -8,6 +8,12 @@
     "wdth" 100;
 }
 
+.inter-simple {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 
 *{
     max-width: 1320px;
@@ -27,6 +33,7 @@ header{
     align-items: center;
     justify-content: center; */
     padding: 177px 344px;
+    margin-bottom: 120px;
 }
 .header-title{
     color: rgb(255, 255, 255);
@@ -46,4 +53,189 @@ header{
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+}
+.holiday-deals{
+    max-width: 802.9px;
+    margin-bottom: 120px;
+}
+.holiday-deals h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+text-align: center;
+margin: 48px 0px;
+}
+.holiday-deals p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holiday-deals h4{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+}
+.holiday-deals img{
+    width: 100%;
+}
+
+.midnight-party{
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png) ;
+    border-radius: 16px;
+    height: 600px;
+    display: flex;
+    margin-bottom: 120px;
+}
+.party-banner{
+    width: 60%;
+    padding: 126px 40px 142px 126px;
+}
+.party-banner h2{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+}
+.party-banner p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.party-banner button{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+background-color: transparent;
+border: none;
+margin-top: 48px;
+}
+.party-pic{
+    width: 35%;
+    margin: 68px 108px 67px 40px;
+}
+
+.party-info{
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 120px;
+}
+.info-container{
+    padding: 100px 385px;
+}
+.party-info h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.join-btn{
+    /* Frame 1 */
+    position: relative;
+    width: 167px;
+    height: 56px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10;
+}
+.img-box{
+    
+    background-image: url(../images/Ellipse1.png);
+    width: 463px;
+    height: 463px;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+}
+.coming-soon,  .year{
+    width: 30%;
+}
+
+.coming-soon h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.coming-soon h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.year h2{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
+.offer p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
 }
